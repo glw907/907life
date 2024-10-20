@@ -2,3 +2,5 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "907.life"
 theme = "PaperMod"
+[params]
+	social = true
