@@ -1,6 +1,7 @@
 baseURL: "https://examplesite.com/"
 title: ExampleSite
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,16 +14,15 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, and schema.
+  env: production
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   images: ["<link or path of image for opengraph>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -38,6 +38,14 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  Social:
+    - name: bluesky
+      url: "https://bsky.app/profile/yourusername"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
 
   assets:
     favicon: "<link / abs url>"
@@ -69,14 +77,6 @@ params:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
 
-  socialIcons:
-    - name: bluesky
-      url: "https://bsky.app/profile/yourusername"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -86,9 +86,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
