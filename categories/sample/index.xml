@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>“Sample” on 907.life</title>
+    <title>Sample on 907.life</title>
     <link>https://907.life/categories/sample/</link>
-    <description>Recent content in “Sample” on 907.life</description>
+    <description>Recent content in Sample on 907.life</description>
     <image>
       <title>907.life</title>
       <url>https://907.life/%3Clink%20or%20path%20of%20image%20for%20opengraph%3E</url>
@@ -14,11 +14,11 @@
     <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://907.life/categories/sample/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>“Test Post for PaperMod Theme”</title>
+      <title>Test Post for PaperMod Theme</title>
       <link>https://907.life/posts/test-post/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://907.life/posts/test-post/</guid>
-      <description>“This is a sample test post to demonstrate features of the PaperMod theme.”</description>
+      <description>This is a sample test post to demonstrate features of the PaperMod theme.</description>
     </item>
   </channel>
 </rss>
