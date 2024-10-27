@@ -107,9 +107,6 @@ params:
 
 menu:
   main:
-	- identifier: archive
-	  name: archive
-	  url: /archive/
     - identifier: categories
       name: categories
       url: /categories/
