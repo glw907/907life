@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://907.life/"
+title: 907.life
 pagination:
   pagerSize: 5
 theme: PaperMod
@@ -15,8 +15,8 @@ minify:
 
 params:
   env: production
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: 907.life
+  description: "Geoff Wright's personal blog"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   images: ["<link or path of image for opengraph>"]
@@ -41,7 +41,7 @@ params:
 
   Social:
     - name: bluesky
-      url: "https://bsky.app/profile/yourusername"
+      url: "https://bsky.app/profile/glw907"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
@@ -107,6 +107,9 @@ params:
 
 menu:
   main:
+	- identifier: archive
+	  name: archive
+	  url: /archive/
     - identifier: categories
       name: categories
       url: /categories/
