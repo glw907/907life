@@ -1,9 +1,9 @@
 ---
-title: “Test Post for PaperMod Theme”
+title: Test Post for PaperMod Theme
 date: 2024-10-24
-description: “This is a sample test post to demonstrate features of the PaperMod theme.”
-tags: [“test”, “example”, “PaperMod”]
-categories: [“Sample”]
+description: This is a sample test post to demonstrate features of the PaperMod theme.
+tags: [test, example, PaperMod]
+categories: [Sample]
 draft: false
 showToc: true
 TocOpen: false
@@ -17,6 +17,7 @@ showbreadcrumbs: true
 Welcome to the **PaperMod** theme test post! This post showcases various formatting and content styles to help you understand how different elements look on your site.
 
 Just updating for another test.
+<!--more-->
 
 ---
 
