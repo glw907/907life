@@ -25,9 +25,9 @@ Just updating for another test.
 
 Here’s how some basic formatting works:
 
-- **Bold Text**  
-- *Italicized Text*  
-- ~~Strikethrough~~  
+- **Bold Text**
+- *Italicized Text*
+- \~\~Strikethrough\~\~
 - `Inline Code`
 
 > This is a blockquote, useful for highlighting key information or quotes.
@@ -38,6 +38,6 @@ Here’s how some basic formatting works:
 
 The following code block shows syntax highlighting with Hugo’s Chroma integration, as configured in **PaperMod**:
 
-```python
-def hello_world():
-    print(“Hello, World!”)
+\`\`\`python
+def hello\_world():
+	print(“Hello, World!”)
