@@ -1,24 +1,13 @@
 ---
-title: “Welcome to My Blog”
-description: “Your go-to place for news, articles, and resources.”
-summary: “Explore the latest insights, updates, and stories from my blog.”
-date: 2024-10-24
+title: "907.life"
+description: "Discover articles, insights, and tutorials on various topics."
 draft: false
-type: “homepage” # Optional: can help with custom layouts or styling
+layout: "list" # Uses the default list layout in PaperMod
 ---
 
-## Welcome to My Blog!
+## 907.life
+This blog exists for two reasons:
 
-Thank you for visiting! This is where I share insights, tutorials, and stories on various topics. Stay tuned for the latest updates!
-
----
-
-### Featured Posts
-
-Check out some of the recent highlights from my blog.
-
----
-
-### About Me
-
-I’m a writer and developer, passionate about sharing knowledge and helping others. Follow along to learn more!
+First and foremost, it's an instruction manual of sorts for anybody interested in living life without smartphone. I post regular updates on how to live an effective and engaged life without the soul-sucking weight of history's most compelling attention magnet in your pocket. If you're new here, I'd suggest starting with the [How I Did It](https://907.life/how-i-did-it/) post.
+ 
+I also use this space for occasional musings on the impact of modern digital technology on lived human experience. A few other stray thoughts might land here as well.
