@@ -1,15 +1,12 @@
 ---
-title: Test Post for PaperMod Theme
-date: 2024-10-24
-description: This is a sample test post to demonstrate features of the PaperMod theme.
-tags: [test, example, PaperMod]
-categories: [Sample]
+title: "Your Post Title"
+date: 2024-10-25
+summary: "A brief summary or excerpt of your post."
+tags: ["tag1", "tag2"]
+categories: ["category1"]
+showtoc: true
+tocopen: false
 draft: false
-showToc: true
-TocOpen: false
-hidemeta: false
-comments: true
-showbreadcrumbs: true
 ---
 
 ## Introduction
