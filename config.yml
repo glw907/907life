@@ -20,6 +20,13 @@ params:
   ShowPostNavLinks: true
   ShowWordCount: true
   UseHugoToc: true
+  Social:
+    - name: Bluesky
+      url: "https://bsky.app/profile/glw907"
+    - name: GitHub
+      url: "https://github.com/glw907"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/geoffreywright"
 
 # Taxonomies (Categories and Tags)
 taxonomies:
