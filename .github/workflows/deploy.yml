@@ -27,6 +27,9 @@ jobs:
 
     - name: Build site
       run: hugo --minify # Minifies for optimized site
+      
+    - name: Add CNAME file to public directory
+      run: echo "907.life" > public/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
