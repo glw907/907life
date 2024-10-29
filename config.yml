@@ -20,7 +20,7 @@ params:
   ShowPostNavLinks: true
   ShowWordCount: true
   UseHugoToc: true
-  Social: []
+  ShowShareButtons: false
 
 # Taxonomies (Categories and Tags)
 taxonomies:
