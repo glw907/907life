@@ -1,7 +1,6 @@
 ---
 title: "Contact Me"
 description: "Get in touch using the contact form below."
-draft: false
 ---
 
 ## Contact Me

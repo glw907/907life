@@ -1,4 +1,4 @@
 ---
 title: "Archives"
-type: "archives"
+description: "A collection of all posts by date."
 ---
