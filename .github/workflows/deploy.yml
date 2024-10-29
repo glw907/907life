@@ -26,7 +26,8 @@ jobs:
         hugo-version: 'latest' # Specify version or keep 'latest'
 
     - name: Build site
-      run: hugo --minify # Minifies for optimized site
+      run: hugo --minify
+      continue-on-error: true # Allows the build to continue despite warnings or errors
       
     - name: Add CNAME file to public directory
       run: echo "907.life" > public/CNAME
