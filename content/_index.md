@@ -1,8 +1,7 @@
 ---
 title: "907.life"
 description: "Discover articles, insights, and tutorials on various topics."
-draft: false
-layout: "list" # Uses the default list layout in PaperMod
+showtoc: false
 ---
 
 ## 907.life
