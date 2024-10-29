@@ -27,7 +27,11 @@ taxonomies:
   category: "categories"
   tag: "tags"
 
-# Menu Configuration
+# Look for posts in the /posts/ directory, and use friendly URLs
+permalinks:
+  posts: "/:year/:month/:title/"
+
+  # Menu Configuration
 menu:
   main:
     - name: "About"
