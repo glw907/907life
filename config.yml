@@ -14,6 +14,7 @@ params:
   title: "907.life"
   description: "Geoff Wright's personal blog"
   author: "Geoffrey L. Wright"
+  customCSS: ["css/extended/custom.css"]
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
