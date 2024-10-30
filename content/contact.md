@@ -1,21 +1,19 @@
 ---
-title: "Contact Me"
-description: "Get in touch using the contact form below."
+title: "Contact"
+layout: "page"
 ---
 
-## Contact Me
-I'd love to hear from you! Feel free to reach out using the form below.
+If you would like to get in touch, please fill out the form below or reach me by email at [your-email@example.com](mailto:your-email@example.com).
 
-## Contact Form
-<form action="https://formspree.io/f/{your_form_id}" method="POST">
+<form action="https://formspree.io/f/your-form-id" method="POST">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
 
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
+  <input type="email" id="email" name="_replyto" required>
 
   <label for="message">Message:</label>
   <textarea id="message" name="message" required></textarea>
 
-  <button type="submit">Send</button>
+  <button type="submit">Send Message</button>
 </form>
