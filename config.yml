@@ -17,11 +17,10 @@ params:
   defaultTheme: auto
   customCSS: ["css/custom.css"]
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowWordCount: true
   UseHugoToc: true
-  ShowShareButtons: false
 
 # Taxonomies (Categories and Tags)
 taxonomies:
@@ -32,7 +31,7 @@ taxonomies:
 permalinks:
   posts: "/:year/:month/:title/"
 
-  # Menu Configuration
+# Menu Configuration
 menu:
   main:
     - name: "About"
