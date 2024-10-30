@@ -15,6 +15,7 @@ params:
   description: "Geoff Wright's personal blog"
   author: "Geoffrey L. Wright"
   defaultTheme: auto
+  customCSS: ["css/custom.css"]
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
