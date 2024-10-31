@@ -1,6 +1,7 @@
 /* ===== Custom CSS for Contact Form Styling ===== */
 
-/* Form Container Styling */
+/* Form Container */
+/* Centers the form, adds padding, and styles the background based on theme */
 form {
   max-width: 600px;
   margin: 2rem auto;
@@ -11,6 +12,7 @@ form {
 }
 
 /* Label Styling */
+/* Styles each label with spacing and bold font */
 form label {
   display: block;
   margin-bottom: 0.5rem;
@@ -18,6 +20,7 @@ form label {
 }
 
 /* Input and Textarea Fields */
+/* Adds padding, border, and theme-based background for fields */
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -27,17 +30,18 @@ form textarea {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   font-size: 1rem;
-  background-color: var(--content-bg);
-  color: var(--text-color);
+  background-color: var(--content-bg); /* Adjusts for light/dark mode */
+  color: var(--text-color); /* Matches theme text color */
 }
 
-/* Adjust textarea height and allow resizing */
+/* Textarea adjustments */
 form textarea {
   resize: vertical;
   min-height: 150px;
 }
 
 /* Submit Button Styling */
+/* Styles the submit button with theme-consistent colors and hover effect */
 form button[type="submit"] {
   padding: 0.75rem 1.5rem;
   background-color: var(--content-bg);
@@ -48,7 +52,14 @@ form button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-/* Button Hover Effect */
-form button[type="submit"]:hover {
-  background-color: var(--body-bg); /* Subtle color change on hover */
+/* Hover effect for enabled submit button */
+form button[type="submit"]:hover:enabled {
+  background-color: var(--body-bg);
+}
+
+/* Disabled Button Styling */
+/* Lightens button when disabled to show it's inactive */
+form button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
