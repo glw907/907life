@@ -1,18 +1,18 @@
 /* ===== Custom CSS for Contact Form Styling ===== */
 
 /* Form Container */
-/* Centers the form, adds padding, and styles the background based on theme */
+/* Centers the form, adds padding, and adapts background to theme */
 form {
   max-width: 600px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background-color: var(--body-bg);
+  background-color: var(--content-bg);
+  color: var(--text-color);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Label Styling */
-/* Styles each label with spacing and bold font */
 form label {
   display: block;
   margin-bottom: 0.5rem;
@@ -20,18 +20,17 @@ form label {
 }
 
 /* Input and Textarea Fields */
-/* Adds padding, border, and theme-based background for fields */
 form input[type="text"],
 form input[type="email"],
 form textarea {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--entry); /* Adapts to light/dark mode */
+  color: var(--text-color); /* Matches theme text color */
+  border: 1px solid var(--border); /* Adjusts to theme border */
   border-radius: 4px;
   font-size: 1rem;
-  background-color: var(--content-bg); /* Adjusts for light/dark mode */
-  color: var(--text-color); /* Matches theme text color */
 }
 
 /* Textarea adjustments */
@@ -41,25 +40,24 @@ form textarea {
 }
 
 /* Submit Button Styling */
-/* Styles the submit button with theme-consistent colors and hover effect */
+/* Styles the submit button to blend with theme colors */
 form button[type="submit"] {
   padding: 0.75rem 1.5rem;
-  background-color: var(--content-bg);
+  background-color: var(--entry);
   color: var(--text-color);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border);
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect for enabled submit button */
+/* Hover and Disabled Button Effects */
 form button[type="submit"]:hover:enabled {
-  background-color: var(--body-bg);
+  background-color: var(--content-bg);
 }
-
-/* Disabled Button Styling */
-/* Lightens button when disabled to show it's inactive */
 form button[disabled] {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+/* ===== End Custom CSS for Contact Form Styling ===== */
