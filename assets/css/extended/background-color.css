@@ -1,0 +1,8 @@
+/* Apply the consistent background color across all pages */
+body {
+    background-color: #f0f0f0;
+}
+
+.content, .single, .list {
+    background-color: #f0f0f0;
+}
