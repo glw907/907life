@@ -1,8 +1,15 @@
-/* Apply the consistent background color across all pages */
-body {
-    background-color: #f0f0f0;
+/* Custom background color for all pages in light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f0f0f0; 
+    }
+
+    .content, .single, .list {
+        background-color: #f0f0f0;
+    }
 }
 
-.content, .single, .list {
-    background-color: #f0f0f0;
+/* Maintain default dark mode settings */
+@media (prefers-color-scheme: dark) {
+    /* No custom background color specified, allowing the theme's default dark mode colors */
 }
