@@ -11,5 +11,4 @@
 &lt;label for="message">Message:&lt;/label>
 &lt;textarea id="message" name="message" required>&lt;/textarea>
 &lt;button type="submit" disabled>Send Message&lt;/button>
-&lt;/form>
-&lt;p>All fields are required.&lt;/p></description></item></channel></rss>
+&lt;/form></description></item></channel></rss>
