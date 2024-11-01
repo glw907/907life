@@ -5,8 +5,8 @@ form {
   max-width: 100%;
   margin: 2rem auto;
   padding: 1.5rem;
-  background-color: var(--content-bg);
-  color: var(--text-color);
+  background-color: var(--entry); /* Uses theme variable */
+  color: var(--text-color); /* Uses theme variable */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -24,9 +24,9 @@ form textarea {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
-  background-color: var(--entry);
-  color: var(--text-color);
-  border: 1px solid var(--border);
+  background-color: var(--content-bg); /* Uses theme variable */
+  color: var(--text-color); /* Uses theme variable */
+  border: 1px solid var(--border); /* Uses theme variable */
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -39,16 +39,16 @@ form textarea {
 /* Button Styling with Theme Variables */
 form button[type="submit"] {
   padding: 0.75rem 1.5rem;
-  background-color: var(--primary);
-  color: var(--text-color);
-  border: 1px solid var(--border);
+  background-color: var(--primary); /* Uses theme variable */
+  color: var(--text-color); /* Uses theme variable */
+  border: 1px solid var(--border); /* Uses theme variable */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 form button[type="submit"]:hover:enabled {
-  background-color: var(--entry);
+  background-color: var(--secondary); /* Uses theme variable */
 }
 
 form button[disabled] {
@@ -59,7 +59,7 @@ form button[disabled] {
 /* Validation Message Styling */
 #form-message {
   font-size: 0.875rem;
-  color: red;
+  color: var(--error); /* Adjust this to use an appropriate error color if defined */
   margin-top: 0.5rem;
 }
 
@@ -68,36 +68,6 @@ form button[disabled] {
   form label,
   form button[type="submit"] {
     font-size: 0.9rem;
-  }
-}
-
-/* Light Mode Specific Styling */
-@media (prefers-color-scheme: light) {
-  form {
-    background-color: #f0f0f0;
-  }
-}
-
-/* Dark Mode Specific Styling */
-@media (prefers-color-scheme: dark) {
-  form {
-    background-color: #2a2a2e;
-    color: #e0e0e0;
-  }
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
-    background-color: #3a3a3f;
-    color: #ffffff;
-    border: 1px solid #4a4a4f;
-  }
-  form button[type="submit"] {
-    background-color: #4a4a4f;
-    color: #e0e0e0;
-    border: 1px solid #5a5a5f;
-  }
-  form button[type="submit"]:hover:enabled {
-    background-color: #5a5a5f;
   }
 }
 
