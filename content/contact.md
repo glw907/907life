@@ -22,5 +22,4 @@ You can fill out the form below me via email, and you can also find me on Bluesk
 
   <button type="submit" disabled>Send Message</button>
 </form>
-<p>All fields are required.</p>
 {{< /rawhtml >}}
