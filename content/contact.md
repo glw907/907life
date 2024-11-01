@@ -4,7 +4,7 @@ showReadingTime: false
 hidemeta: true
 ---
 
-You can fill out the form below me via email, and you can also find me on Bluesky at [@glw907.bsky.social](https://bsky.app/profile/glw907.bsky.social).
+You can fill out the form below to contact me via email, and you can also find me on Bluesky at [@glw907.bsky.social](https://bsky.app/profile/glw907.bsky.social).
 
 {{< rawhtml >}}
 <form action="https://formspree.io/f/your-form-id" method="POST" id="contact-form">
