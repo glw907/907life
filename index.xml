@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>907.life</title><link>https://907.life/</link><description>Recent content on 907.life</description><generator>Hugo -- 0.136.5</generator><language>en</language><lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://907.life/index.xml" rel="self" type="application/rss+xml"/><item><title>Your Post Title</title><link>https://907.life/2024/10/your-post-title/</link><pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate><guid>https://907.life/2024/10/your-post-title/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Welcome to the &lt;strong>PaperMod&lt;/strong> theme test post! This post showcases various formatting and content styles to help you understand how different elements look on your site.&lt;/p>
-&lt;p>Just updating for another test.&lt;/p></description></item><item><title>About Me</title><link>https://907.life/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://907.life/about/</guid><description>Learn more about the person behind the blog.</description></item><item><title>Contact</title><link>https://907.life/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://907.life/contact/</guid><description>Contact me.</description></item></channel></rss>
+&lt;p>Just updating for another test.&lt;/p></description></item><item><title>About Me</title><link>https://907.life/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://907.life/about/</guid><description>Learn more about the person behind the blog.</description></item><item><title>Contact</title><link>https://907.life/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://907.life/contact/</guid><description>&lt;p>You can fill out the form below me via email, and you can also find me on Bluesky at &lt;a href="https://bsky.app/profile/glw907.bsky.social">@glw907.bsky.social&lt;/a>.&lt;/p>
+&lt;form action="https://formspree.io/f/your-form-id" method="POST" id="contact-form">
+&lt;label for="name">Name:&lt;/label>
+&lt;input type="text" id="name" name="name" required />
+&lt;label for="email">Email:&lt;/label>
+&lt;input type="email" id="email" name="_replyto" required />
+&lt;label for="subject">Subject:&lt;/label>
+&lt;input type="text" id="subject" name="subject" required />
+&lt;label for="message">Message:&lt;/label>
+&lt;textarea id="message" name="message" required>&lt;/textarea>
+&lt;button type="submit" disabled>Send Message&lt;/button>
+&lt;/form>
+&lt;p>All fields are required.&lt;/p></description></item></channel></rss>
