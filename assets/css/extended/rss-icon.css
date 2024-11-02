@@ -1,0 +1,12 @@
+/* ===== Custom CSS for RSS header icon ===== */
+
+.menu-icon {
+    display: inline-block;
+    margin-left: 10px; /* Adjust spacing as needed */
+    font-size: 1.2rem; /* Adjust size */
+    color: inherit; /* Match with menu text color */
+}
+
+.menu-icon:hover {
+    color: var(--primary-color); /* Optional hover effect */
+}
