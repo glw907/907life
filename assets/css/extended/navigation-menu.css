@@ -1,0 +1,38 @@
+/* ===== Custom CSS for navigation menu ===== */
+
+/* Hover effect for menu items */
+.menu li a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  padding-bottom: 4px;
+}
+
+/* Underline effect */
+.menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.25s ease-in-out;
+}
+
+/* Underline appears on hover */
+.menu li a:hover::after {
+  width: 100%;
+}
+
+/* RSS link styling */
+.menu .icon-rss {
+  font-size: 1.2rem;
+  color: inherit;
+  margin-left: 10px;
+}
+
+.menu .icon-rss:hover {
+  color: var(--primary-color);
+}
