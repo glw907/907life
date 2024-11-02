@@ -2,7 +2,7 @@ baseURL: “https://907.life/“
 title: "907.life"
 theme: "PaperMod"
 
-# Basic Configuration
+# Basic Configuration (test!)
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
