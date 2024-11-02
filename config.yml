@@ -52,9 +52,10 @@ menu:
     - name: "Contact"
       url: "/contact/"
       weight: 40
-    - name: "RSS" # RSS icon menu link
-      url: "/index.xml"
+    - name: "RSS"
+      url: "/index.xml"  # Link to the RSS feed
       weight: 50
+      pre: "<i class='fas fa-rss'></i>"
 
 # Syntax Highlighting (Pygments)
 pygmentsUseClasses: true
