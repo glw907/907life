@@ -21,6 +21,7 @@ params:
   ShowPostNavLinks: true
   ShowWordCount: true
   UseHugoToc: true
+  enableEmoji: true
 
 # Taxonomies (Categories and Tags)
 taxonomies:
