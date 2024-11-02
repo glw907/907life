@@ -5,25 +5,10 @@ form {
   max-width: 100%;
   margin: 2rem auto;
   padding: 1.5rem;
-  background-color: var(--entry); /* Default for dark mode */
+  background-color: var(--entry);
   color: var(--primary);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Light Mode Specific Styling */
-@media (prefers-color-scheme: light) {
-  form {
-    background-color: var(--content-bg); /* Use a theme variable or specific color */
-  }
-}
-
-/* Dark Mode Specific Styling */
-@media (prefers-color-scheme: dark) {
-  form {
-    background-color: var(--background); /* Ensure this variable aligns with the PaperMod theme's dark mode */
-    color: var(--text); /* Make sure the text is readable */
-  }
 }
 
 form label {
@@ -39,7 +24,7 @@ form textarea {
   width: 100%;
   padding: 0.75rem;
   margin-bottom: 1rem;
-  background-color: var(--entry); /* Matches the page's background color */
+  background-color: var(--theme);
   color: var(--primary);
   border: 1px solid var(--border);
   border-radius: 4px;
