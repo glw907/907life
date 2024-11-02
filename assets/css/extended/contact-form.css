@@ -18,6 +18,14 @@ form {
   }
 }
 
+/* Dark Mode Specific Styling */
+@media (prefers-color-scheme: dark) {
+  form {
+    background-color: var(--background); /* Ensure this variable aligns with the PaperMod theme's dark mode */
+    color: var(--text); /* Make sure the text is readable */
+  }
+}
+
 form label {
   display: block;
   margin-bottom: 0.25rem;
