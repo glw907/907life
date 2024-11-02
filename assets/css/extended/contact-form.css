@@ -5,7 +5,7 @@ form {
   max-width: 100%;
   margin: 2rem auto;
   padding: 1.5rem;
-  background-color: var(--entry);
+  background-color: var(--entry); /* Default for dark mode */
   color: var(--primary);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@ form {
 /* Light Mode Specific Styling */
 @media (prefers-color-scheme: light) {
   form {
-    background-color: #f5f5f5; /* Light grey for light mode */
+    background-color: var(--content-bg); /* Use a theme variable or specific color */
   }
 }
 
