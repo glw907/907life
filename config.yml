@@ -1,4 +1,4 @@
-baseURL: "https://907.life/"
+base  URL: “https://907.life/“
 title: "907.life"
 theme: "PaperMod"
 
@@ -14,13 +14,26 @@ params:
   title: "907.life"
   description: "Geoff Wright's personal blog"
   author: "Geoffrey L. Wright"
-  customCSS: ["css/extended/custom.css"]
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowWordCount: true
   UseHugoToc: true
+  socialIcons:
+    - name: rss
+      url: "/index.xml"  # Path to your RSS feed
+    - name: bluesky
+      url: "https://bsky.app/profile/glw907"  # Replace with your Bluesky handle
+    - name: linkedin
+      url: "https://www.linkedin.com/in/geoffreywright/" 
+
+# Output formats, including RSS
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
 
 # Taxonomies (Categories and Tags)
 taxonomies:
