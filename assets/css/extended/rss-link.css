@@ -1,0 +1,11 @@
+/* ===== Custom CSS for RSS main manu link ===== */
+
+.menu .icon-rss {
+  font-size: 1.2rem;
+  color: inherit;
+  margin-left: 10px;
+}
+
+.menu .icon-rss:hover {
+  color: var(--primary-color); /* Optional hover effect for RSS icon */
+}
