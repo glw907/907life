@@ -1,4 +1,4 @@
-base  URL: “https://907.life/“
+baseURL: “https://907.life/“
 title: "907.life"
 theme: "PaperMod"
 
@@ -7,7 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+  
 # Site Params for PaperMod
 params:
   env: production
