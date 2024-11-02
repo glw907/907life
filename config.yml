@@ -52,8 +52,8 @@ menu:
     - name: "Contact"
       url: "/contact/"
       weight: 40
-    - name: "RSS"
-      url: "/index.xml"  # Link to the RSS feed
+    - name: "" # RSS link
+      url: "/index.xml"
       weight: 50
       pre: "<i class='fas fa-rss'></i>"
 

@@ -3,7 +3,7 @@
 .menu .icon-rss {
   font-size: 1.2rem; /* Adjust the size */
   color: inherit; /* Match with menu text color */
-  margin-left: 5px; /* Adjust spacing if necessary */
+  margin-left: 10px; /* Adjust spacing if necessary */
 }
 
 .menu .icon-rss:hover {
