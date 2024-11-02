@@ -52,10 +52,9 @@ menu:
     - name: "Contact"
       url: "/contact/"
       weight: 40
-    - name: "" # RSS icon menu link
+    - name: "RSS" # RSS icon menu link
       url: "/index.xml"
       weight: 50
-      pre: "<svg aria-hidden='true' focusable='false' class='icon icon-rss'><use xlink:href='#icon-rss'></use></svg>"
 
 # Syntax Highlighting (Pygments)
 pygmentsUseClasses: true
