@@ -1,28 +1,26 @@
 /* ===== Custom CSS for PaperMod navigation menu and RSS icon ===== */
 
-/* Navigation menu styling for PaperMod theme */
-nav .menu li a {
+/* Custom CSS for navigation menu hover underline effect */
+nav .nav .menu li a {
   position: relative;
   text-decoration: none;
   display: inline-block;
   color: inherit;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 
-/* Underline effect */
-nav .menu li a::after {
+nav .nav .menu li a::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 0;
-  height: 1px; /* Matches PaperMod's general design */
+  height: 2px;
   background-color: currentColor;
   transition: width 0.25s ease-in-out;
 }
 
-/* Underline appears on hover */
-nav .menu li a:hover::after {
+nav .nav .menu li a:hover::after {
   width: 100%;
 }
 
