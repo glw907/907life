@@ -1,0 +1,12 @@
+/* ===== Custom CSS for links ===== */
+
+/* General link hover effect */
+a, h2.post-title a {
+  transition: color 0.2s ease-in-out;
+}
+
+/* Uniform hover color for all links */
+a:hover, h2.post-title a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
