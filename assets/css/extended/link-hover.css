@@ -1,12 +1,13 @@
 /* ===== Custom CSS for links ===== */
 
-/* General link hover effect */
-a, h2.post-title a {
+/* General link styles */
+a, .post-title a {
   transition: color 0.2s ease-in-out;
+  color: inherit; /* Preserve initial color */
 }
 
-/* Uniform hover color for all links */
-a:hover, h2.post-title a:hover {
-  color: var(--color-primary);
-  text-decoration: underline;
+/* Uniform hover color for all links, including post titles */
+a:hover, .post-title a:hover {
+  color: var(--color-primary) !important; /* Consistent color, using theme's primary color */
+  text-decoration: underline; /* Optional for added emphasis */
 }
