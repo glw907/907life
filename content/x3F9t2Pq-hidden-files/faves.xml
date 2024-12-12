@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <YealinkIPPhoneDirectory>
-    <Title>Faves</Title>
-    <DirectoryEntry><Name>Addy Wright</Name><Telephone>19072302797</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Andy Rogers</Name><Telephone>19072309831</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Ann Gedmark</Name><Telephone>19072506535</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Caleb Rauch</Name><Telephone>19073991533</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Camille Oliver</Name><Telephone>19072426979</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Cathy Wright</Name><Telephone>19076320829</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Christopher Cryan</Name><Telephone>19073174901</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Duncan Wright</Name><Telephone>19078851780</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Erin Day</Name><Telephone>19072506133</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Geoffrey Wright</Name><Telephone>19073178472</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Hannah Pratt</Name><Telephone>19077828272</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Heath Day</Name><Telephone>19072500588</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Hilkka Bold</Name><Telephone>19074447025</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Jessica Cochran</Name><Telephone>19079479086</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>John Ruml</Name><Telephone>18059090117</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Nancy Black</Name><Telephone>19078417394</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Oliver Wright</Name><Telephone>19073606170</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Pam Weeks</Name><Telephone>17036150573</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Suzy Wright</Name><Telephone>19072233466</Telephone></MenuItem></Telephone></DirectoryEntry>
-    <DirectoryEntry><Name>Tony Wright</Name><Telephone>12063976022</Telephone></MenuItem></Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Addy Wright</Name><Telephone>19072302797</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Andy Rogers</Name><Telephone>19072309831</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Ann Gedmark</Name><Telephone>19072506535</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Caleb Rauch</Name><Telephone>19073991533</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Camille Oliver</Name><Telephone>19072426979</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Cathy Wright</Name><Telephone>19076320829</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Christopher Cryan</Name><Telephone>19073174901</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Duncan Wright</Name><Telephone>19078851780</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Erin Day</Name><Telephone>19072506133</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Geoffrey Wright</Name><Telephone>19073178472</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Hannah Pratt</Name><Telephone>19077828272</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Heath Day</Name><Telephone>19072500588</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Hilkka Bold</Name><Telephone>19074447025</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Jessica Cochran</Name><Telephone>19079479086</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>John Ruml</Name><Telephone>18059090117</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Nancy Black</Name><Telephone>19078417394</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Oliver Wright</Name><Telephone>19073606170</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Pam Weeks</Name><Telephone>17036150573</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Suzy Wright</Name><Telephone>19072233466</Telephone></DirectoryEntry>
+    <DirectoryEntry><Name>Tony Wright</Name><Telephone>12063976022</Telephone></DirectoryEntry>
 </YealinkIPPhoneDirectory>
