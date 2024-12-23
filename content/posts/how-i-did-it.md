@@ -1,5 +1,5 @@
 ---
-title: “How “I Did It
+title: “How I Did It”
 date: 2024-10-25
 summary: "A brief summary or excerpt of your post."
 tags: ["tag1", "tag2"]
