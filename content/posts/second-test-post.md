@@ -1,7 +1,7 @@
 ---
-title: “How I Did It”
-date: 2024-12-22
-summary: "A brief summary or excerpt of your post."
+title: “Second Test Post
+date: 2024-11-13
+summary: “This is a second test post, mostly to check formatting.”
 tags: ["tag1", "tag2"]
 categories: ["category1"]
 showtoc: true
@@ -9,16 +9,16 @@ tocopen: false
 draft: false
 ---
 
-## Why I Did It
+## Introduction
 
-Welcome to the **PaperMod** theme test post! This post showcases various formatting and content styles to help you understand how different elements look on your site.
+This is my 2nd test post! It showcases various formatting and content styles to help you understand how different elements look on your site.
 
 Just updating for another test.
 <!--more-->
 
 ---
 
-## Getting Started
+### Basic Formatting
 
 Here’s how some basic formatting works:
 
@@ -31,11 +31,7 @@ Here’s how some basic formatting works:
 
 ---
 
-## Core Tools
-
-## Key Habits
-
-## Bonus Tools
+### Code Block Example
 
 The following code block shows syntax highlighting with Hugo’s Chroma integration, as configured in **PaperMod**:
 
