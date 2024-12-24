@@ -1,7 +1,7 @@
 ---
-title: “Second Test Post
+title: "Second Test Post"
 date: 2024-11-13
-summary: “This is a second test post, mostly to check formatting.”
+summary: "This is a second test post, mostly to check formatting."
 tags: ["tag1", "tag2"]
 categories: ["category1"]
 showtoc: true
