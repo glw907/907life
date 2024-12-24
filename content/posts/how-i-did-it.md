@@ -1,7 +1,7 @@
 ---
 title: "How I Did It"
-date: 2023-12-22
-summary: "A brief summary or excerpt of your post."
+date: 2024-11-13
+summary: "This is a second test post, mostly to check formatting."
 tags: ["tag1", "tag2"]
 categories: ["category1"]
 showtoc: true

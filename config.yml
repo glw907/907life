@@ -15,7 +15,6 @@ params:
   description: "Geoff Wright's personal blog"
   author: "Geoffrey L. Wright"
   defaultTheme: auto
-  disableSpecialFirstPost: true
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
